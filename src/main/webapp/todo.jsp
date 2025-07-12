@@ -52,7 +52,8 @@
 
 		for (String task : allTasks) {
 
-			out.print("<li>" + task + "</li>");
+			out.print("<li>" + task + " <a href='#'>Remove</a></li>");
+			
 		}
 
 		out.print("</ol>");
